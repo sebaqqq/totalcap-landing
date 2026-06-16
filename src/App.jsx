@@ -10,6 +10,7 @@ import AulaVirtualPage from "./pages/AulaVirtualPage";
 import EmpresasPage from "./pages/EmpresasPage";
 import ContactoPage from "./pages/ContactoPage";
 import InscripcionPage from "./pages/InscripcionPage";
+import AcreditacionesPage from "./pages/AcreditacionesPage";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/empresas" element={<EmpresasPage />} />
         <Route path="/contacto" element={<ContactoPage />} />
         <Route path="/inscripcion" element={<InscripcionPage />} />
+        <Route path="/acreditaciones" element={<AcreditacionesPage />} />
       </Routes>
       <Footer />
       <WhatsAppButton />

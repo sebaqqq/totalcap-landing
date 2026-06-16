@@ -3588,6 +3588,3815 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "e5wdz",
+      "x": 3683,
+      "y": 0,
+      "name": "Courses Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "moBrq",
+          "name": "Announcement Bar",
+          "width": "fill_container",
+          "fill": "$accent-teal",
+          "gap": 8,
+          "padding": [
+            10,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BbPsb",
+              "name": "Announcement Text",
+              "fill": "$foreground-inverse",
+              "content": "🔥 Inscripciones abiertas — Cupos limitados para Julio 2025",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "HNMaM",
+              "name": "Announcement CTA",
+              "fill": "$accent-lime",
+              "content": "Reserva tu cupo →",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "awqNU",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "DrvNT",
+              "name": "Logo",
+              "fill": "$foreground-inverse",
+              "content": "ESCUELA SEGURIDAD",
+              "fontFamily": "Anton",
+              "fontSize": 22,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ZyxsD",
+              "name": "Nav Links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YTd9o",
+                  "name": "Cursos",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Cursos",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oCr2J",
+                  "name": "Acreditaciones",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Acreditaciones",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "C1Crq",
+                  "name": "Aula Virtual",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Aula Virtual",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "O85Oy0",
+                  "name": "Empresas",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Empresas",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IdHw6",
+                  "name": "Contacto",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Contacto",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "id": "EKfl4",
+              "type": "ref",
+              "ref": "cPG6E",
+              "name": "Header CTA",
+              "descendants": {
+                "IAX1H": {
+                  "content": "Inscríbete"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TlICc",
+          "name": "Courses Hero",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "i66QN",
+              "name": "Hero Top",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "B20Pa",
+                  "name": "Breadcrumb",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "si5S0",
+                      "name": "Breadcrumb Home",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Inicio",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DbKYI",
+                      "name": "Breadcrumb Sep",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "/",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kSUFY",
+                      "name": "Breadcrumb Current",
+                      "fill": "$foreground-inverse",
+                      "content": "Cursos",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Zq95i",
+                  "name": "Page Title",
+                  "fill": "$foreground-inverse",
+                  "content": "TODOS NUESTROS CURSOS",
+                  "fontFamily": "Anton",
+                  "fontSize": 48,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "n8NwGQ",
+                  "name": "Page Subtitle",
+                  "fill": "$foreground-inverse-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 640,
+                  "content": "Formación 100% online con acceso 24/7. Elige el curso que mejor se adapte a tu perfil profesional y comienza hoy mismo.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Az0hg",
+              "name": "Filter Row",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "V3Vpp8",
+                  "name": "Filter Label",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "FILTRAR:",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "JjTd3",
+                  "name": "Filter Todos",
+                  "fill": "$accent-teal",
+                  "cornerRadius": 20,
+                  "padding": [
+                    8,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "W2FGkX",
+                      "name": "Todos Label",
+                      "fill": "$foreground-inverse",
+                      "content": "Todos",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R60ac",
+                  "name": "Filter Nivel Básico",
+                  "fill": "$surface-inverse-soft",
+                  "cornerRadius": 20,
+                  "padding": [
+                    8,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k6AoP",
+                      "name": "Nivel Básico Label",
+                      "fill": "$foreground-inverse",
+                      "content": "Nivel Básico",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z1N3b",
+                  "name": "Filter Supervisión",
+                  "fill": "$surface-inverse-soft",
+                  "cornerRadius": 20,
+                  "padding": [
+                    8,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KIazI",
+                      "name": "Supervisión Label",
+                      "fill": "$foreground-inverse",
+                      "content": "Supervisión",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dXWRw",
+                  "name": "Filter Especialización",
+                  "fill": "$surface-inverse-soft",
+                  "cornerRadius": 20,
+                  "padding": [
+                    8,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m6q4h",
+                      "name": "Especialización Label",
+                      "fill": "$foreground-inverse",
+                      "content": "Especialización",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SUwY9",
+                  "name": "Filter Próximamente",
+                  "fill": "$surface-inverse-soft",
+                  "cornerRadius": 20,
+                  "padding": [
+                    8,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wHe5d",
+                      "name": "Próximamente Label",
+                      "fill": "$foreground-inverse",
+                      "content": "Próximamente",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AHLUd",
+          "name": "Courses Body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PHGAu",
+              "name": "Section Nivel Básico",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "e8MEUI",
+                  "name": "Section Label 1",
+                  "fill": "$accent-teal",
+                  "content": "NIVEL BÁSICO",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "fUy31",
+                  "name": "Row Basico",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "hJKWE",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card Guardia",
+                      "width": "fill_container",
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1763569378578-782df27f07e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "OG7eN": {
+                          "content": "32 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Guardia de Seguridad"
+                        },
+                        "CLCRl": {
+                          "content": "Formación integral para desempeñarte como guardia de seguridad privada certificado por OS-10."
+                        }
+                      }
+                    },
+                    {
+                      "id": "cQoQm",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card CCTV",
+                      "width": "fill_container",
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1592933517548-f65267a96178?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "OG7eN": {
+                          "content": "24 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Operador CCTV"
+                        },
+                        "CLCRl": {
+                          "content": "Aprende vigilancia electrónica, monitoreo de cámaras y gestión de sistemas de seguridad."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "J9nU7",
+              "name": "Section Supervisión",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y9OPO",
+                  "name": "Section Label 2",
+                  "fill": "$accent-teal",
+                  "content": "SUPERVISIÓN Y LIDERAZGO",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "CWo1X",
+                  "name": "Row Supervision",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "C6h8P",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card Supervisor",
+                      "width": "fill_container",
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1775731312466-4b403278cfeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "OG7eN": {
+                          "content": "40 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Supervisor de Seguridad"
+                        },
+                        "CLCRl": {
+                          "content": "Lidera equipos de seguridad con las competencias que exige la normativa vigente."
+                        }
+                      }
+                    },
+                    {
+                      "id": "o2qtJ7",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card Encargado",
+                      "width": "fill_container",
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1762941177632-fe37c485c428?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "OG7eN": {
+                          "content": "48 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Encargado de Seguridad"
+                        },
+                        "CLCRl": {
+                          "content": "Gestiona la seguridad integral de instalaciones y coordina protocolos de emergencia."
+                        }
+                      }
+                    },
+                    {
+                      "id": "O2wnET",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card Jefe",
+                      "width": "fill_container",
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1766788467067-d443f19314b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "OG7eN": {
+                          "content": "56 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Jefe de Seguridad"
+                        },
+                        "CLCRl": {
+                          "content": "Dirige departamentos de seguridad con visión estratégica y cumplimiento normativo."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W6Rsc",
+              "name": "Section Especialización",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZjEXB",
+                  "name": "Section Label 3",
+                  "fill": "$accent-teal",
+                  "content": "ESPECIALIZACIÓN",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "frame",
+                  "id": "n6yrX",
+                  "name": "Row Especializacion",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "vykHF",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card Advance",
+                      "width": 400,
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1716191751554-5f1d628b0fac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "OG7eN": {
+                          "content": "64 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Advance"
+                        },
+                        "CLCRl": {
+                          "content": "Programa avanzado para profesionales que buscan especializarse en seguridad de alto nivel."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gFf3J",
+              "name": "Section Próximamente",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K7Hf6o",
+                  "name": "Prox Header",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lbtGa",
+                      "name": "Section Label 4",
+                      "fill": "$foreground-secondary",
+                      "content": "PRÓXIMAMENTE",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IOKAN",
+                      "name": "Coming Soon Tag",
+                      "fill": "$surface-tertiary",
+                      "cornerRadius": 12,
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m9S4A",
+                          "name": "Coming Soon Text",
+                          "fill": "$foreground-secondary",
+                          "content": "Avisame cuando estén disponibles",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XgUvM",
+                  "name": "Row Proximamente",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "id": "RMhsg",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card Ciberseguridad",
+                      "width": "fill_container",
+                      "opacity": 0.7,
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1592609930961-219235eded71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "GeCNK": {
+                          "fill": "$foreground-secondary"
+                        },
+                        "GeCNK/Ycprg": {
+                          "content": "Próximamente"
+                        },
+                        "OG7eN": {
+                          "content": "40 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Ciberseguridad"
+                        },
+                        "CLCRl": {
+                          "content": "Protege sistemas digitales y datos sensibles con técnicas actualizadas de ciberdefensa."
+                        }
+                      }
+                    },
+                    {
+                      "id": "b0BDa",
+                      "type": "ref",
+                      "ref": "ISJyr",
+                      "name": "Card Direccion",
+                      "width": "fill_container",
+                      "opacity": 0.7,
+                      "descendants": {
+                        "E8T9o": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1758518728154-d10275e0515e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NjkwMjB8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "GeCNK": {
+                          "fill": "$foreground-secondary"
+                        },
+                        "GeCNK/Ycprg": {
+                          "content": "Próximamente"
+                        },
+                        "OG7eN": {
+                          "content": "60 horas"
+                        },
+                        "ItuyM": {
+                          "content": "Dirección en Seguridad"
+                        },
+                        "CLCRl": {
+                          "content": "Estrategia y liderazgo ejecutivo para la gestión integral de seguridad corporativa."
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vKMcg",
+          "name": "Courses CTA Section",
+          "width": "fill_container",
+          "fill": "$accent-teal",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            60,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cJZ41",
+              "name": "CTA Title",
+              "fill": "$foreground-inverse",
+              "content": "¿NO ENCUENTRAS LO QUE BUSCAS?",
+              "fontFamily": "Anton",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Kga6J",
+              "name": "CTA Desc",
+              "opacity": 0.9,
+              "fill": "$foreground-inverse",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Contáctanos y te ayudamos a encontrar el programa que mejor se adapte a tus necesidades profesionales.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "L7Fy3",
+              "name": "CTA Buttons",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "EoT2i",
+                  "type": "ref",
+                  "ref": "cPG6E",
+                  "name": "CTA Primary",
+                  "descendants": {
+                    "IAX1H": {
+                      "content": "Hablar con un Asesor"
+                    }
+                  }
+                },
+                {
+                  "id": "DyWaI",
+                  "type": "ref",
+                  "ref": "CCT8H",
+                  "name": "CTA Secondary",
+                  "stroke": "$foreground-inverse",
+                  "descendants": {
+                    "VGe6A": {
+                      "content": "Ver Plan Empresas",
+                      "fill": "$foreground-inverse"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "l0tkQ",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            80,
+            32,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "my7aF",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "gap": 40,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LXm8P",
+                  "name": "Footer Brand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gdJFc",
+                      "name": "Footer Logo",
+                      "fill": "$foreground-inverse",
+                      "content": "ESCUELA SEGURIDAD",
+                      "fontFamily": "Anton",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gCkNo",
+                      "name": "Footer Desc",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "Más de 10 años formando profesionales de seguridad privada en Chile. Acreditados por OS-10, SPD, SENCE y ASR.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RTTNO",
+                  "name": "Footer Links",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SoU6v",
+                      "name": "Footer Links Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Enlaces",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G8eLl",
+                      "name": "Link Cursos",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Cursos",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lAUxT",
+                      "name": "Link Aula Virtual",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Aula Virtual",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aXEav",
+                      "name": "Link Acreditaciones",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Acreditaciones",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "InEko",
+                      "name": "Link Preguntas Frecuentes",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Preguntas Frecuentes",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EB1zV",
+                      "name": "Link Contacto",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Contacto",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oNIgq",
+                  "name": "Footer Contact",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Eqc37",
+                      "name": "Footer Contact Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Contacto",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q9scp",
+                      "name": "Phone",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "+56 9 XXXX XXXX",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CLcQz",
+                      "name": "Email",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "contacto@[dominio].cl",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QitC9",
+                      "name": "Address",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 200,
+                      "content": "Santiago, Chile",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CZTR2",
+                  "name": "Footer Legal",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F5Ucy0",
+                      "name": "Footer Legal Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Legal",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "q9BsVV",
+                      "name": "Términos y Condiciones",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Términos y Condiciones",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EA2WS",
+                      "name": "Política de Privacidad",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Política de Privacidad",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U7FMOc",
+                      "name": "Política de Reembolso",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Política de Reembolso",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Bh4bb",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vBaEi",
+                  "name": "Copyright",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "© 2025 [Nombre OTEC]. Todos los derechos reservados.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ixGtI",
+                  "name": "Social Icons",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oLnzW",
+                      "name": "LinkedIn",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YJlgD",
+                          "name": "LinkedIn Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "L",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UktSt",
+                      "name": "Instagram",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OfP4s",
+                          "name": "Instagram Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "I",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CfrEt",
+                      "name": "Facebook",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KojiX",
+                          "name": "Facebook Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "F",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vRsQN",
+                      "name": "YouTube",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KgIpY",
+                          "name": "YouTube Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "Y",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TmRnm",
+      "x": 5203,
+      "y": 0,
+      "name": "Empresas Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "oIDnI",
+          "name": "Announcement Bar",
+          "width": "fill_container",
+          "fill": "$accent-teal",
+          "gap": 8,
+          "padding": [
+            10,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "C5QjN",
+              "name": "Announcement Text",
+              "fill": "$foreground-inverse",
+              "content": "🔥 Inscripciones abiertas — Cupos limitados para Julio 2025",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "MDXF7",
+              "name": "Announcement CTA",
+              "fill": "$accent-lime",
+              "content": "Reserva tu cupo →",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XENBN",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "shizZ",
+              "name": "Logo",
+              "fill": "$foreground-inverse",
+              "content": "ESCUELA SEGURIDAD",
+              "fontFamily": "Anton",
+              "fontSize": 22,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "C8u3Cg",
+              "name": "Nav Links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D7oBPW",
+                  "name": "Cursos",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Cursos",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "crE8u",
+                  "name": "Acreditaciones",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Acreditaciones",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "spAk9",
+                  "name": "Aula Virtual",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Aula Virtual",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CAvAJ",
+                  "name": "Empresas",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Empresas",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hdTGh",
+                  "name": "Contacto",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Contacto",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "id": "j3uHm",
+              "type": "ref",
+              "ref": "cPG6E",
+              "name": "Header CTA",
+              "descendants": {
+                "IAX1H": {
+                  "content": "Inscríbete"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EfDVn",
+          "name": "Hero Empresas",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "gap": 60,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JX1ba",
+              "name": "Hero Left",
+              "width": 640,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qWWeF",
+                  "name": "Hero Eyebrow",
+                  "fill": "$accent-teal",
+                  "content": "SOLUCIONES CORPORATIVAS",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "fmDIe",
+                  "name": "Hero Title",
+                  "fill": "$foreground-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "CAPACITA A TU EQUIPO\nCON RESPALDO OFICIAL",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Anton",
+                  "fontSize": 52,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "pHE0r",
+                  "name": "Hero Desc",
+                  "fill": "$foreground-inverse-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Planes corporativos con seguimiento por alumno, reportes de avance y certificación acreditada por OS-10, SPD y SENCE. Cumple la normativa sin complicaciones.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "j7Tbsg",
+                  "name": "Hero Buttons",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "vBnBp",
+                      "type": "ref",
+                      "ref": "cPG6E",
+                      "name": "Hero CTA Primary",
+                      "descendants": {
+                        "IAX1H": {
+                          "content": "Solicitar Cotización"
+                        }
+                      }
+                    },
+                    {
+                      "id": "GMG4R",
+                      "type": "ref",
+                      "ref": "CCT8H",
+                      "name": "Hero CTA Secondary",
+                      "stroke": "$foreground-inverse-secondary",
+                      "descendants": {
+                        "VGe6A": {
+                          "content": "Ver Cursos",
+                          "fill": "$foreground-inverse-secondary"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "quojS",
+              "name": "Hero Stats Grid",
+              "width": 400,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OFFJe",
+                  "name": "Stats Row 1",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ESsRg",
+                      "name": "Stat Alumnos capacitados",
+                      "width": "fill_container",
+                      "fill": "$surface-inverse-soft",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rjtcm",
+                          "name": "Stat Value",
+                          "fill": "$accent-gold",
+                          "content": "15.000+",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IA21W",
+                          "name": "Stat Label",
+                          "fill": "$foreground-inverse-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Alumnos capacitados",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZeM3R",
+                      "name": "Stat Empresas confían en nosotros",
+                      "width": "fill_container",
+                      "fill": "$surface-inverse-soft",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Gaj1a",
+                          "name": "Stat Value",
+                          "fill": "$accent-gold",
+                          "content": "200+",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cuw9p",
+                          "name": "Stat Label",
+                          "fill": "$foreground-inverse-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Empresas confían en nosotros",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZxIaw",
+                  "name": "Stats Row 2",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OOQ9e",
+                      "name": "Stat Cursos acreditados OS-10",
+                      "width": "fill_container",
+                      "fill": "$surface-inverse-soft",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UEN1V",
+                          "name": "Stat Value",
+                          "fill": "$accent-gold",
+                          "content": "100%",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vXaLJ",
+                          "name": "Stat Label",
+                          "fill": "$foreground-inverse-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Cursos acreditados OS-10",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J2Ede",
+                      "name": "Stat Acceso al aula virtual",
+                      "width": "fill_container",
+                      "fill": "$surface-inverse-soft",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a1GxJx",
+                          "name": "Stat Value",
+                          "fill": "$accent-gold",
+                          "content": "24/7",
+                          "fontFamily": "Anton",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "e5Yw1Y",
+                          "name": "Stat Label",
+                          "fill": "$foreground-inverse-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Acceso al aula virtual",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TkQQy",
+          "name": "Value Props Section",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "vb57f",
+              "name": "Value Header",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rTLC2",
+                  "name": "Value Eyebrow",
+                  "fill": "$accent-teal",
+                  "content": "POR QUÉ ELEGIRNOS",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "B5SdZ",
+                  "name": "Value Title",
+                  "fill": "$foreground-primary",
+                  "content": "LO QUE TU EMPRESA NECESITA",
+                  "textAlign": "center",
+                  "fontFamily": "Anton",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ftb4F",
+                  "name": "Value Desc",
+                  "fill": "$foreground-secondary",
+                  "content": "Nos encargamos de la capacitación para que tú te enfoques en tu operación.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZqDQ4",
+              "name": "Value Grid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "S3Exe4",
+                  "name": "Value Cumplimiento Normativo",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zNzTw",
+                      "name": "Icon Circle",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$accent-teal",
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Pso3e",
+                          "name": "Icon",
+                          "fill": "$foreground-inverse",
+                          "content": "✓",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HsmZL",
+                      "name": "Card Title",
+                      "fill": "$foreground-primary",
+                      "content": "Cumplimiento Normativo",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xJYKO",
+                      "name": "Card Desc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Todos los cursos acreditados por OS-10, SPD y SENCE. Tu empresa cumple la ley sin trámites adicionales.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JpF0v",
+                  "name": "Value Reportes de Avance",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S77q2",
+                      "name": "Icon Circle",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$accent-teal",
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "t8U26E",
+                          "name": "Icon",
+                          "fill": "$foreground-inverse",
+                          "content": "✓",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "D26e31",
+                      "name": "Card Title",
+                      "fill": "$foreground-primary",
+                      "content": "Reportes de Avance",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UntsA",
+                      "name": "Card Desc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Dashboard con el progreso de cada alumno en tiempo real. Sabes quién avanza y quién necesita seguimiento.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NyRpy",
+                  "name": "Value Tarifas Corporativas",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XDtUN",
+                      "name": "Icon Circle",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$accent-teal",
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RzigI",
+                          "name": "Icon",
+                          "fill": "$foreground-inverse",
+                          "content": "✓",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tU3TL",
+                      "name": "Card Title",
+                      "fill": "$foreground-primary",
+                      "content": "Tarifas Corporativas",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YTRsG",
+                      "name": "Card Desc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Precios preferenciales por volumen. Mientras más personas capacitas, mejor es tu tarifa.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vdseB",
+                  "name": "Value Ejecutivo Dedicado",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fpXRJ",
+                      "name": "Icon Circle",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "$accent-teal",
+                      "cornerRadius": 20,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CqV3k",
+                          "name": "Icon",
+                          "fill": "$foreground-inverse",
+                          "content": "✓",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "zkMI2",
+                      "name": "Card Title",
+                      "fill": "$foreground-primary",
+                      "content": "Ejecutivo Dedicado",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v8AeX",
+                      "name": "Card Desc",
+                      "fill": "$foreground-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un ejecutivo de cuenta asignado a tu empresa que coordina todo el proceso de principio a fin.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LXnDZ",
+          "name": "Process Section",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YnJl7",
+              "name": "Process Header",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u8hf0Y",
+                  "name": "Process Eyebrow",
+                  "fill": "$accent-teal",
+                  "content": "PROCESO SIMPLE",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "fwhvg",
+                  "name": "Process Title",
+                  "fill": "$foreground-inverse",
+                  "content": "DE LA COTIZACIÓN A LA CERTIFICACIÓN",
+                  "textAlign": "center",
+                  "fontFamily": "Anton",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "HailX",
+                  "name": "Process Desc",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "En 4 pasos tu equipo queda capacitado y certificado.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TPlFE",
+              "name": "Steps Row",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "o6OOc",
+                  "name": "Step 01",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sn551",
+                      "name": "Step Number",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 24,
+                      "stroke": "$accent-gold",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pQttr",
+                          "name": "Num",
+                          "fill": "$accent-gold",
+                          "content": "01",
+                          "fontFamily": "Anton",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "AAVPS",
+                      "name": "Step Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Cotización",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Fqrx6",
+                      "name": "Step Desc",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cuéntanos cuántas personas necesitas capacitar y en qué cursos.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fBJla",
+                  "name": "Step 02",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Y8FTSV",
+                      "name": "Step Number",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 24,
+                      "stroke": "$accent-gold",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DB4hW",
+                          "name": "Num",
+                          "fill": "$accent-gold",
+                          "content": "02",
+                          "fontFamily": "Anton",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "t4B8a8",
+                      "name": "Step Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Inscripción",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lgORB",
+                      "name": "Step Desc",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Recibimos la nómina de alumnos y activamos los accesos al aula.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "abmyO",
+                  "name": "Step 03",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BwZER",
+                      "name": "Step Number",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 24,
+                      "stroke": "$accent-gold",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IGjZP",
+                          "name": "Num",
+                          "fill": "$accent-gold",
+                          "content": "03",
+                          "fontFamily": "Anton",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "PTQlp",
+                      "name": "Step Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Capacitación",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qIQnv",
+                      "name": "Step Desc",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tu equipo estudia 24/7. Tú recibes reportes de avance periódicos.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b69Hvx",
+                  "name": "Step 04",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l6DSq",
+                      "name": "Step Number",
+                      "width": 48,
+                      "height": 48,
+                      "cornerRadius": 24,
+                      "stroke": "$accent-gold",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SIzKa",
+                          "name": "Num",
+                          "fill": "$accent-gold",
+                          "content": "04",
+                          "fontFamily": "Anton",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "F7FFs",
+                      "name": "Step Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Certificación",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gK14K",
+                      "name": "Step Desc",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Diplomas verificables con código QR para cada alumno aprobado.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k5bvOP",
+          "name": "Plans Section",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wefGX",
+              "name": "Plans Header",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UpBt7",
+                  "name": "Plans Eyebrow",
+                  "fill": "$accent-teal",
+                  "content": "PLANES CORPORATIVOS",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "kfyml",
+                  "name": "Plans Title",
+                  "fill": "$foreground-primary",
+                  "content": "ELIGE EL PLAN PARA TU EQUIPO",
+                  "fontFamily": "Anton",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "piRzc",
+                  "name": "Plans Desc",
+                  "fill": "$foreground-secondary",
+                  "content": "Todos los planes incluyen acceso 24/7, diploma verificable y soporte dedicado.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T8qYbW",
+              "name": "Plans Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sGloz",
+                  "name": "Plan Básico",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z7c11",
+                      "name": "Plan Name",
+                      "fill": "$foreground-primary",
+                      "content": "BÁSICO",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ADA6d",
+                      "name": "Plan Range",
+                      "fill": "$foreground-secondary",
+                      "content": "5 – 15 alumnos",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "o4M17q",
+                      "name": "Divider",
+                      "fill": "$border-subtle",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Wcz5y",
+                      "name": "Features List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "NcWs2",
+                          "name": "Feature Acceso al aula virtual 24/7",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BljAX",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qVThQ",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Acceso al aula virtual 24/7",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kPvKh",
+                          "name": "Feature Diploma con código QR",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qGISz",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xB2tQ",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Diploma con código QR",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SkGIP",
+                          "name": "Feature Soporte por email",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gHRGz",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Cvqge",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Soporte por email",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wa9jt",
+                          "name": "Feature Reporte final de avance",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PmplG",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TTgGO",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Reporte final de avance",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "C66PCq",
+                      "type": "ref",
+                      "ref": "cPG6E",
+                      "name": "Plan CTA",
+                      "width": "fill_container",
+                      "descendants": {
+                        "IAX1H": {
+                          "content": "Solicitar Cotización"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WEB4F",
+                  "name": "Plan Profesional",
+                  "width": "fill_container",
+                  "fill": "$surface-inverse",
+                  "cornerRadius": 12,
+                  "stroke": "$surface-inverse",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IO1M4",
+                      "name": "Recommended Badge",
+                      "fill": "$accent-teal",
+                      "cornerRadius": 4,
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CO889",
+                          "name": "Badge Label",
+                          "fill": "$foreground-inverse",
+                          "content": "MÁS POPULAR",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "U97hF",
+                      "name": "Plan Name",
+                      "fill": "$foreground-inverse",
+                      "content": "PROFESIONAL",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WUMOs",
+                      "name": "Plan Range",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "16 – 50 alumnos",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "dNpva",
+                      "name": "Divider",
+                      "fill": "$border-inverse",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rhNxI",
+                      "name": "Features List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MWpiE",
+                          "name": "Feature Todo lo del plan Básico",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "c59E8a",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FeO2j",
+                              "name": "Feature Text",
+                              "fill": "$foreground-inverse",
+                              "content": "Todo lo del plan Básico",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FBFvm",
+                          "name": "Feature Ejecutivo de cuenta dedicado",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iEsXM",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZpHwr",
+                              "name": "Feature Text",
+                              "fill": "$foreground-inverse",
+                              "content": "Ejecutivo de cuenta dedicado",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k4LmB",
+                          "name": "Feature Reportes semanales de avance",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Q8YUt",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lQJde",
+                              "name": "Feature Text",
+                              "fill": "$foreground-inverse",
+                              "content": "Reportes semanales de avance",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Xiprg",
+                          "name": "Feature Facturación con/sin SENCE",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qHaFq",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "edJID",
+                              "name": "Feature Text",
+                              "fill": "$foreground-inverse",
+                              "content": "Facturación con/sin SENCE",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VWHmy",
+                          "name": "Feature Onboarding personalizado",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lUVuP",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "magd8",
+                              "name": "Feature Text",
+                              "fill": "$foreground-inverse",
+                              "content": "Onboarding personalizado",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "RTkND",
+                      "type": "ref",
+                      "ref": "cPG6E",
+                      "name": "Plan CTA",
+                      "width": "fill_container",
+                      "descendants": {
+                        "IAX1H": {
+                          "content": "Solicitar Cotización"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E1uYaQ",
+                  "name": "Plan Enterprise",
+                  "width": "fill_container",
+                  "fill": "$surface-primary",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "es4SZ",
+                      "name": "Plan Name",
+                      "fill": "$foreground-primary",
+                      "content": "ENTERPRISE",
+                      "fontFamily": "Anton",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uiTcI",
+                      "name": "Plan Range",
+                      "fill": "$foreground-secondary",
+                      "content": "51+ alumnos",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "d7wxgW",
+                      "name": "Divider",
+                      "fill": "$border-subtle",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pEB0H",
+                      "name": "Features List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "y8R1Z",
+                          "name": "Feature Todo lo del plan Profesional",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pgcQb",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OuuBB",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Todo lo del plan Profesional",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "X6dLRX",
+                          "name": "Feature Tarifas preferenciales máximas",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "EyHE0",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "BJSUV",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Tarifas preferenciales máximas",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "u6YbsS",
+                          "name": "Feature Cursos a medida",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NA1Kf",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SCDYr",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Cursos a medida",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Zl3tn",
+                          "name": "Feature Dashboard corporativo",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "O0KW6w",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "knGEp",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Dashboard corporativo",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AXX09",
+                          "name": "Feature Soporte prioritario 24/7",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Jx9FR",
+                              "name": "Check",
+                              "fill": "$accent-teal",
+                              "content": "✓",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jS7FW",
+                              "name": "Feature Text",
+                              "fill": "$foreground-primary",
+                              "content": "Soporte prioritario 24/7",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "jEDgk",
+                      "type": "ref",
+                      "ref": "cPG6E",
+                      "name": "Plan CTA",
+                      "width": "fill_container",
+                      "descendants": {
+                        "IAX1H": {
+                          "content": "Solicitar Cotización"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "l1LCn",
+          "name": "Logos Section",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "z2zJcd",
+              "name": "Logos Title",
+              "fill": "$foreground-secondary",
+              "content": "EMPRESAS QUE CONFÍAN EN NOSOTROS",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "frame",
+              "id": "i79JA",
+              "name": "Logos Row",
+              "width": "fill_container",
+              "gap": 48,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d5ocnu",
+                  "name": "Logo Prosegur",
+                  "opacity": 0.4,
+                  "fill": "$foreground-secondary",
+                  "content": "PROSEGUR",
+                  "fontFamily": "Anton",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WUc03",
+                  "name": "Logo Securitas",
+                  "opacity": 0.4,
+                  "fill": "$foreground-secondary",
+                  "content": "SECURITAS",
+                  "fontFamily": "Anton",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xU5yJ",
+                  "name": "Logo G4S",
+                  "opacity": 0.4,
+                  "fill": "$foreground-secondary",
+                  "content": "G4S",
+                  "fontFamily": "Anton",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RK19G",
+                  "name": "Logo Brink's",
+                  "opacity": 0.4,
+                  "fill": "$foreground-secondary",
+                  "content": "BRINK'S",
+                  "fontFamily": "Anton",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xXonS",
+                  "name": "Logo Loomis",
+                  "opacity": 0.4,
+                  "fill": "$foreground-secondary",
+                  "content": "LOOMIS",
+                  "fontFamily": "Anton",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "q7ms1q",
+                  "name": "Logo Grupo SOS",
+                  "opacity": 0.4,
+                  "fill": "$foreground-secondary",
+                  "content": "GRUPO SOS",
+                  "fontFamily": "Anton",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TZr2Z",
+          "name": "Form Section",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "gap": 60,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GR1q6",
+              "name": "Form Left",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w2gtK0",
+                  "name": "Form Eyebrow",
+                  "fill": "$accent-teal",
+                  "content": "CONTACTO EMPRESAS",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "sYf9Q",
+                  "name": "Form Title",
+                  "fill": "$foreground-inverse",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "SOLICITA TU\nCOTIZACIÓN",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Anton",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "H08GbX",
+                  "name": "Form Desc",
+                  "fill": "$foreground-inverse-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Completa el formulario y te contactaremos en menos de 24 horas con una propuesta a la medida de tu empresa.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "f1OQm",
+                  "name": "Benefit Respuesta en menos de 24 horas",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N0V6z",
+                      "name": "Arrow",
+                      "fill": "$accent-gold",
+                      "content": "→",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zf2Qq",
+                      "name": "Benefit Text",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Respuesta en menos de 24 horas",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S4Bn4R",
+                  "name": "Benefit Cotización sin compromiso",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eUiu9",
+                      "name": "Arrow",
+                      "fill": "$accent-gold",
+                      "content": "→",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lUEDu",
+                      "name": "Benefit Text",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Cotización sin compromiso",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qfrj2",
+                  "name": "Benefit Facturación empresa",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n2sQv3",
+                      "name": "Arrow",
+                      "fill": "$accent-gold",
+                      "content": "→",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NYjzL",
+                      "name": "Benefit Text",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Facturación empresa",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bXWdt",
+              "name": "Form Card",
+              "width": 480,
+              "fill": "$surface-inverse-soft",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 36,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Al5J1",
+                  "name": "Form Card Title",
+                  "fill": "$foreground-inverse",
+                  "content": "Solicita una cotización",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "U6lEtb",
+                  "name": "Form Card Subtitle",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "Todos los campos son obligatorios.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "vD0JJ",
+                  "name": "Field Nombre completo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "amlAq",
+                      "name": "Field Label",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Nombre completo",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qQbce",
+                      "name": "Field Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface-inverse",
+                      "cornerRadius": 6,
+                      "stroke": "$border-inverse",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QuAgD",
+                  "name": "Field Empresa",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hBEyY",
+                      "name": "Field Label",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Empresa",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "X8zMd",
+                      "name": "Field Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface-inverse",
+                      "cornerRadius": 6,
+                      "stroke": "$border-inverse",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qTdDL",
+                  "name": "Field Correo corporativo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ql6QU",
+                      "name": "Field Label",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Correo corporativo",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ltJKf",
+                      "name": "Field Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface-inverse",
+                      "cornerRadius": 6,
+                      "stroke": "$border-inverse",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JBboW",
+                  "name": "Field Teléfono",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aQ4Ba",
+                      "name": "Field Label",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Teléfono",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bbpdx",
+                      "name": "Field Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface-inverse",
+                      "cornerRadius": 6,
+                      "stroke": "$border-inverse",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Da5OC",
+                  "name": "Field N° de personas a capacitar",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iuTkl",
+                      "name": "Field Label",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "N° de personas a capacitar",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ciPDx",
+                      "name": "Field Input",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "$surface-inverse",
+                      "cornerRadius": 6,
+                      "stroke": "$border-inverse",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center"
+                    }
+                  ]
+                },
+                {
+                  "id": "OSETV",
+                  "type": "ref",
+                  "ref": "cPG6E",
+                  "name": "Form Submit",
+                  "width": "fill_container",
+                  "descendants": {
+                    "IAX1H": {
+                      "content": "Enviar Solicitud"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HuW5s",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": "$accent-teal",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "f3oho",
+              "name": "CTA Title",
+              "fill": "$foreground-inverse",
+              "content": "¿LISTO PARA CAPACITAR A TU EQUIPO?",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 44,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "y6hIa",
+              "name": "CTA Desc",
+              "opacity": 0.9,
+              "fill": "$foreground-inverse",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Más de 200 empresas ya confían en nosotros. Solicita tu cotización hoy y comienza a certificar a tu personal.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "seJCC",
+              "name": "CTA Buttons",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "lyGVP",
+                  "type": "ref",
+                  "ref": "cPG6E",
+                  "name": "CTA Primary",
+                  "descendants": {
+                    "IAX1H": {
+                      "content": "Solicitar Cotización"
+                    }
+                  }
+                },
+                {
+                  "id": "OchOu",
+                  "type": "ref",
+                  "ref": "CCT8H",
+                  "name": "CTA Secondary",
+                  "stroke": "$foreground-inverse",
+                  "descendants": {
+                    "VGe6A": {
+                      "content": "Hablar por WhatsApp",
+                      "fill": "$foreground-inverse"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lxxFv",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$surface-inverse",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            80,
+            32,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "GTZfj",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "gap": 40,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lm9nD",
+                  "name": "Footer Brand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j5IJzQ",
+                      "name": "Footer Logo",
+                      "fill": "$foreground-inverse",
+                      "content": "ESCUELA SEGURIDAD",
+                      "fontFamily": "Anton",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gn5Iz",
+                      "name": "Footer Desc",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "Más de 10 años formando profesionales de seguridad privada en Chile. Acreditados por OS-10, SPD, SENCE y ASR.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G42iqM",
+                  "name": "Footer Links",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V4MQUT",
+                      "name": "Footer Links Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Enlaces",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BLSE3",
+                      "name": "Link Cursos",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Cursos",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "INhMD",
+                      "name": "Link Aula Virtual",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Aula Virtual",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pYicy",
+                      "name": "Link Acreditaciones",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Acreditaciones",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OGO1c",
+                      "name": "Link Preguntas Frecuentes",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Preguntas Frecuentes",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tjfhn",
+                      "name": "Link Contacto",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Contacto",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RB8rP",
+                  "name": "Footer Contact",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CUrNt",
+                      "name": "Footer Contact Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Contacto",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "szvo6",
+                      "name": "Phone",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "+56 9 XXXX XXXX",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ao02y",
+                      "name": "Email",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "contacto@[dominio].cl",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tg09g",
+                      "name": "Address",
+                      "fill": "$foreground-inverse-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 200,
+                      "content": "Santiago, Chile",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HaplQ",
+                  "name": "Footer Legal",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gwuPN",
+                      "name": "Footer Legal Title",
+                      "fill": "$foreground-inverse",
+                      "content": "Legal",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qIh7S",
+                      "name": "Términos y Condiciones",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Términos y Condiciones",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gPWNh",
+                      "name": "Política de Privacidad",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Política de Privacidad",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z6DXgG",
+                      "name": "Política de Reembolso",
+                      "fill": "$foreground-inverse-secondary",
+                      "content": "Política de Reembolso",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G8bJWV",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BIp6i",
+                  "name": "Copyright",
+                  "fill": "$foreground-inverse-secondary",
+                  "content": "© 2025 [Nombre OTEC]. Todos los derechos reservados.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "j8xO0A",
+                  "name": "Social Icons",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zL0d9",
+                      "name": "LinkedIn",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eagqF",
+                          "name": "LinkedIn Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "L",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ePjWT",
+                      "name": "Instagram",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YdcU4",
+                          "name": "Instagram Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "I",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gzsU2",
+                      "name": "Facebook",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fbj7e",
+                          "name": "Facebook Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "F",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rikxL",
+                      "name": "YouTube",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "$border-inverse",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hn5vd",
+                          "name": "YouTube Icon",
+                          "fill": "$foreground-inverse-secondary",
+                          "content": "Y",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {

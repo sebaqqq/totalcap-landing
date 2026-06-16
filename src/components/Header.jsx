@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const NAV_ITEMS = [
   { label: "Cursos", to: "/cursos" },
-  { label: "Acreditaciones", href: "/#acreditaciones" },
+  { label: "Acreditaciones", to: "/acreditaciones" },
   { label: "Aula Virtual", to: "/aula-virtual" },
   { label: "Empresas", to: "/empresas" },
   { label: "Contacto", to: "/contacto" },
