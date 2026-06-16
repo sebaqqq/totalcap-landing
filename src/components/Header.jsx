@@ -5,8 +5,8 @@ const NAV_ITEMS = [
   { label: "Cursos", to: "/cursos" },
   { label: "Acreditaciones", href: "/#acreditaciones" },
   { label: "Aula Virtual", to: "/aula-virtual" },
-  { label: "Empresas", href: "/#empresas" },
-  { label: "Contacto", href: "/#contacto" },
+  { label: "Empresas", to: "/empresas" },
+  { label: "Contacto", to: "/contacto" },
 ];
 
 export default function Header() {

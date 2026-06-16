@@ -7,6 +7,8 @@ import SocialProofToasts from "./components/SocialProofToasts";
 import LandingPage from "./pages/LandingPage";
 import CoursesPage from "./pages/CoursesPage";
 import AulaVirtualPage from "./pages/AulaVirtualPage";
+import EmpresasPage from "./pages/EmpresasPage";
+import ContactoPage from "./pages/ContactoPage";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/cursos" element={<CoursesPage />} />
         <Route path="/aula-virtual" element={<AulaVirtualPage />} />
+        <Route path="/empresas" element={<EmpresasPage />} />
+        <Route path="/contacto" element={<ContactoPage />} />
       </Routes>
       <Footer />
       <WhatsAppButton />
