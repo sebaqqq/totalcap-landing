@@ -9,6 +9,7 @@ import CoursesPage from "./pages/CoursesPage";
 import AulaVirtualPage from "./pages/AulaVirtualPage";
 import EmpresasPage from "./pages/EmpresasPage";
 import ContactoPage from "./pages/ContactoPage";
+import InscripcionPage from "./pages/InscripcionPage";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/aula-virtual" element={<AulaVirtualPage />} />
         <Route path="/empresas" element={<EmpresasPage />} />
         <Route path="/contacto" element={<ContactoPage />} />
+        <Route path="/inscripcion" element={<InscripcionPage />} />
       </Routes>
       <Footer />
       <WhatsAppButton />

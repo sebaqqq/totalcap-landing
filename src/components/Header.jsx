@@ -37,7 +37,7 @@ export default function Header() {
               <a key={item.label} href={item.href} className="text-sm text-white/60 hover:text-white transition-colors">{item.label}</a>
             )
           )}
-          <a href="/#inscripcion" className="bg-gold text-petrol font-bold text-sm px-6 py-2.5 rounded-md hover:bg-gold-light transition-colors">Inscríbete</a>
+          <Link to="/inscripcion" className="bg-gold text-petrol font-bold text-sm px-6 py-2.5 rounded-md hover:bg-gold-light transition-colors">Inscríbete</Link>
         </div>
       </nav>
     </header>
